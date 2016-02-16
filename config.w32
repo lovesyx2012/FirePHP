@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("firephp", "for firephp support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("firephp", "enable firephp support", "no");
+
+if (PHP_FIREPHP != "no") {
+	EXTENSION("firephp", "firephp.c");
+}
+
