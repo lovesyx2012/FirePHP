@@ -1,1 +1,1 @@
-# FirePHP
+# FirePHP debug
